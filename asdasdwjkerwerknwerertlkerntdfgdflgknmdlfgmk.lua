@@ -4,7 +4,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (false) },
+        ['Indicators'] = { ['Enabled'] = (true) },
     },
     
     ["SilentAim"] = {
@@ -20,7 +20,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["AimAssist"] = {
-        ['Enabled'] = (false),
+        ['Enabled'] = (true),
         ['Toggle'] = ('C'), --[[ For Target Mode ]]
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
@@ -39,10 +39,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
     ["TriggerBot"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('C'),
+        ['Toggle'] = ('X'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
     
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.045), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
@@ -54,7 +54,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Physics"] = {
         ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
         ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
-        ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
+        ['Jumping'] = { ['Enabled'] = (true) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (true), ['Magnitude'] = 50 }
     },  
 
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (7), ['Height'] = (7) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (10), ['Height'] = (10) }
     },
 }
 
