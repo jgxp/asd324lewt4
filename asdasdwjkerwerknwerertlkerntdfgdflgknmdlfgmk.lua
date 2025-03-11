@@ -42,7 +42,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Toggle'] = ('C'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Magnitude'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('HoldA'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
     
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.045), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
@@ -52,9 +52,9 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
-        ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
-        ['Jumping'] = { ['Enabled'] = (true) }, --[[ No Jump Cooldown ]]
+        ['Walking'] = { ['Enabled'] = (false), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
+        ['Falling'] = { ['Enabled'] = (false) }, --[[ Anti Fall ]]
+        ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (true), ['Magnitude'] = 50 }
     },  
 
