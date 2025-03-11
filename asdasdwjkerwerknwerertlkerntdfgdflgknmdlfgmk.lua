@@ -44,11 +44,11 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Magnitude'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
     
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.077), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
+        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.068), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
-        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (22), Y = (32) }, ['[TacticalShotgun]'] = { X = (22), Y = (32) }, ['[Revolver]'] = { X = (22), Y = (32) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
+        ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (22), Y = (33) }, ['[TacticalShotgun]'] = { X = (22), Y = (33) }, ['[Revolver]'] = { X = (22), Y = (33) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (2.7), ['Height'] = (4.4) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (2.7), ['Height'] = (4.4) }
     },
 }
 
