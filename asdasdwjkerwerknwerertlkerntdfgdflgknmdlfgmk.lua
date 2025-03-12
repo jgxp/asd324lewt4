@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'),
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                          --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = true, ['Ground'] = 0.116, ['Air'] = 0, ['Automated'] = (false), ['Stabilize'] = 4.1, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
+        ['Prediction'] = { ['Enabled'] = true, ['Ground'] = 0.1174, ['Air'] = 0, ['Automated'] = (false), ['Stabilize'] = 4.1, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Point'), ['Scale'] = (0.96), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
