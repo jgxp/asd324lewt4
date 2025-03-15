@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.1156), ['Air'] = (0), ['Automated'] = (false), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
+        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.1156), ['Air'] = (0), ['Automated'] = (false), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
@@ -41,10 +41,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Enabled'] = (true),
         ['Toggle'] = ('C'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
-        ['Field'] = ('Magnitude'), --[[ Cursor, Magnitude ]]
+        ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
         ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
-        ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.045), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
+        ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.045), ['Air'] = (0), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
         ['Interval'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (1), ['[TacticalShotgun]'] = (1), ['[Revolver]'] = (1) } }, --[[ In MS ]]--
       
@@ -52,7 +52,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
+        ['Walking'] = { ['Enabled'] = (false), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
         ['Falling'] = { ['Enabled'] = (false) }, --[[ Anti Fall ]]
         ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 150 }
