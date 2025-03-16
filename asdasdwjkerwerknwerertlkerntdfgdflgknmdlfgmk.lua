@@ -20,7 +20,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["AimAssist"] = {
-        ['Enabled'] = (true),
+        ['Enabled'] = (false),
         ['Toggle'] = ('C'), --[[ For Target Mode ]]
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
@@ -39,10 +39,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
     ["TriggerBot"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('E'),
+        ['Toggle'] = ('C'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
@@ -61,10 +61,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ['Raid Awareness'] = { ['Enabled'] = (true), ['Select'] = ('T'), ['Clear'] = ('Z'), ['Outlines'] = (false), ['Box'] = (true), ['Name'] = (true) },
 
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
-        ['Cooldown Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0015), ['[Revolver]'] = (0.0005) } },                                                                                                                                                                                       
+        ['Cooldown Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0015), ['[Revolver]'] = (0.0005) } },                                                                                                                                                                                       
         ['Client Redirection'] = { ['Enabled'] = (false) }, 
-        ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.99), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (false), ['Value'] = math.random(0.1, 0.4) } },
-        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0015), ['[Revolver]'] = (0.0005) } }, 
+        ['Spread Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (.99), ['[TacticalShotgun]'] = (.82), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (false), ['Value'] = math.random(0.1, 0.4) } },
+        ['Delay Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0015), ['[Revolver]'] = (0.0005) } }, 
         ['Double Tap'] = { ['Enabled'] = (false), ['Toggle'] = ('E'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
         ['Beam Color'] = { ['Enabled'] = (false), ['Color'] = (Color3.new(0.560784, 0.894117, 0.901960)) },
         --[[
@@ -90,7 +90,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (110) },
         ['TriggerBotField'] = { ['Size'] = (4.5) }, --[[ For offbrands ]]
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (10), ['Height'] = (10) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (1.9), ['Height'] = (2.9) }
     },
 }
 
